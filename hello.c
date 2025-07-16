@@ -1,16 +1,13 @@
-//#include <stdio.h>
+#include <stdio.h>
 
-// Declaración de la función
-void saludar();
-
-// Definición de la función
-void saludar() {
-    int i = 0;
-    i++;
+// Función contador que imprime números del 1 al 10
+void contador() {
+    for (int i = 1; i <= 10; i++) {
+        printf("%d\n", i);
+    }
 }
 
-void main() {
-    // Llamada a la función
-    saludar();
-    // return 0;
+int main() {
+    contador();
+    return 0;
 }
