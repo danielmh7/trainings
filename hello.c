@@ -9,8 +9,8 @@ void saludar() {
     i++;
 }
 
-int main() {
+void main() {
     // Llamada a la función
     saludar();
-    return 0;
+    // return 0;
 }
